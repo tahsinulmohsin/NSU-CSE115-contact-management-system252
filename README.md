@@ -1,8 +1,10 @@
 # NSU-CSE115-contact-management-system252
-  Contact Management System
-  Course: CSE115 – Introduction to Programming Language (Programming Language I)
-  Project Type: Console-based Application
-  Language: C
+
+	  Contact Management System
+	  Course: CSE115 – Introduction to Programming Language (Programming Language I)
+	  Project Type: Console-based Application
+	  Language: C  
+
 
 📌 Project Overview
 The Contact Management System is a simple, menu-driven C program that allows users to store, search, update, and delete contact information.
