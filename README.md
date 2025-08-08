@@ -102,10 +102,10 @@ By completing this project, I learned:
 
 ---
 
-## 👨‍💻 Author  
-**Name:** Tahsinul Mohsin
-**Student ID:** 2524687642
-**Course Instructor:** Mirza Mohammad Lutfe Elahi [MLE]
+  ## 👨‍💻 Author  
+  **Name:** Tahsinul Mohsin
+  **Student ID:** 2524687642
+  **Course Instructor:** Mirza Mohammad Lutfe Elahi [MLE]  
 
 ---
 
