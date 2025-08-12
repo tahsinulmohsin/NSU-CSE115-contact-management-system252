@@ -58,12 +58,12 @@ git clone https://github.com/tahsinulmohsin/NSU-CSE115-contact-management-system
 ### **2. Compile the Program**
 Using GCC:
 ```bash
-gcc main.c -o contact_manager
+gcc main.c -o contact-management
 ```
 
 ### **3. Run the Executable**
 ```bash
-./contact_manager
+./contact-management
 ```
 
 ---
