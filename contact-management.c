@@ -66,7 +66,7 @@ void displayContact(void)
 
 
     FILE *file;
-    file = fopen("contact-book.txt", "r"); //appending data in the file
+    file = fopen("contact-book.txt", "r"); //reading data in the file
     //control statement for file handling
     if (file==NULL)
     {
@@ -122,6 +122,7 @@ void menu (void)
 
 } while (choice != 3);
 }
+
 
 
 
