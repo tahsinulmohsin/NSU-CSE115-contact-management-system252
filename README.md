@@ -15,16 +15,35 @@ This project demonstrates the use of fundamental C programming concepts, includi
 - Structures (`struct`)  
 - Functions  
 - Arrays & Strings  
-- Conditional statements & loops  
+- Conditional statements & loops
+- File handling (`fopen`, `fscanf`, `fprintf`, `fclose`) for persistent storage.  
+- Pointers (used with file operations and arrays).  
+- Iteration (loops and menu-driven control).  
+- String functions (`fgets`, `strstr`, `strcmp`) for input and searching.  
+
 
 The system ensures persistent storage by saving contact data in a text file so that it remains available between program runs.
 
 ---
 
-## 🎯 Features
-1. **Add a new contact** – Store a contact’s name, phone number, and email.  
-2. **View all contacts** – Display all stored contacts from the file.  
-3. **Exit** – Quit the application safely while keeping stored data.  
+## 🚀 Features
+- ➕ **Add Contact**  
+  Input a contact’s Name, Phone, and Email and save it to a file (`contact-book.txt`).  
+
+- 📖 **Show All Contacts**  
+  Read and display all stored contacts from the file.  
+
+- 🔍 **Search Contacts**  
+  Search by keyword (substring match, case-sensitive) in Name, Phone, or Email.  
+
+- ❌ **Delete Contact**  
+  Delete a contact by **exact Name** or **exact Phone**.  
+  (Deletes all matches if multiple entries have the same field.)  
+
+- 🚪 **Exit**  
+  Cleanly exit the program.  
+
+---
 
 ---
 
@@ -70,14 +89,14 @@ gcc main.c -o contact-management
 
 ## 🧪 Sample Run
 ```
-Welcome to the Basic Contact Management System Software. 
+Welcome to the Basic Contact Management System Software.
 This program is developed by two noob freshers from the 252 batch at NSU!
 
-Type the corresponding number in the menu to run your desired operation and press Enter
-
 1. Add a Contact
-2. Display contacts
-3. Nah, I will rather exit this program
+2. Show all contacts
+3. Search contacts
+4. Delete a contact
+5. Nah, I will rather exit this program
 
 Enter your choice: 1
 Enter Name: John Doe
